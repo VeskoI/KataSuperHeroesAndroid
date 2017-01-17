@@ -155,7 +155,7 @@ import static org.mockito.Mockito.when;
 
     SuperHero superHeroSelected = superHeroes.get(superHeroIndex);
     intended(hasComponent(SuperHeroDetailActivity.class.getCanonicalName()));
-    intended(hasExtra("super_hero_name_key", superHeroSelected.getName()));
+    intended(hasExtra("super_hero_name_key", superHeroSelected.getName() + "pizza"));
   }
 
   @Test public void showsTheExactNumberOfSuperHeroes() {
