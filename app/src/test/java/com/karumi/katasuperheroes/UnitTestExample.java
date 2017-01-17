@@ -13,7 +13,7 @@ public class UnitTestExample {
     }
 
     @Test
-    public void failingTest() throws Exception {
-        assertTrue(2 + 2 == 5);
+    public void nonFailingTest() throws Exception {
+        assertTrue(2 + 2 == 4);
     }
 }
